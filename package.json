@@ -1,0 +1,35 @@
+{
+  "name": "electron-winstore-auto-launch",
+  "version": "1.0.0",
+  "description": "Configure your Electron to start automatically when the user logs in Edit",
+  "main": "lib/index.js",
+  "dependencies": {
+    "@nodert-win10-au/windows.applicationmodel": "^0.2.96"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixrieseberg/electron-winstore-auto-launch.git"
+  },
+  "keywords": [
+    "windows",
+    "winrt",
+    "nodert",
+    "winstore",
+    "store",
+    "autolaunch",
+    "launch",
+    "login",
+    "electron",
+    "nw"
+  ],
+  "author": "Felix Rieseberg <felix@felix.fun> (https://felixrieseberg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixrieseberg/electron-winstore-auto-launch/issues"
+  },
+  "homepage": "https://github.com/felixrieseberg/electron-winstore-auto-launch#readme"
+}

@@ -1,0 +1,9 @@
+*.vcxproj
+*.filters
+*.user
+Debug
+Release
+test
+src
+tsconfig.json
+.vscode
