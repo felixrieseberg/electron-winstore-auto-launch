@@ -4,7 +4,7 @@
   "description": "Configure your Electron to start automatically when the user logs in Edit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "dependencies": {
+  "optionalDependencies": {
     "@nodert-win10-au/windows.applicationmodel": "^0.2.96"
   },
   "scripts": {
