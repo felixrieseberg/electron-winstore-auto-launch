@@ -7,9 +7,6 @@
   "dependencies": {
     "@nodert-win10-au/windows.applicationmodel": "^0.2.96"
   },
-  "os": [
-    "win32"
-  ],
   "scripts": {
     "build": "tsc -p .",
     "prepublish": "npm run build"
@@ -37,6 +34,6 @@
   },
   "homepage": "https://github.com/felixrieseberg/electron-winstore-auto-launch#readme",
   "devDependencies": {
-    "@types/node": "^8.0.16"
+    "@types/node": "^8.0.17"
   }
 }

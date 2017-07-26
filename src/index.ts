@@ -26,6 +26,14 @@ export class WindowsStoreAutoLaunch {
    */
   private static getAppModel(reject?: (reason: string) => void) {
     try {
+      if (process.platform !== 'win32') {
+        if (reject) {
+          return reject(`Platform is not win32`);
+        } else {
+          throw new Error('Platform is not win32');
+        }
+      }
+
       return appModel || require('@nodert-win10-au/windows.applicationmodel');
     } catch (error) {
       if (reject) {
