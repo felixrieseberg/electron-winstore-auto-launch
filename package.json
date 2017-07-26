@@ -1,6 +1,6 @@
 {
   "name": "electron-winstore-auto-launch",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Configure your Electron to start automatically when the user logs in Edit",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
