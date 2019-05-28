@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "noImplicitAny": true,
+    "target": "es2017",
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strictNullChecks": true,
     "declaration": true,
     "outDir": "lib",
+    "module": "CommonJS",
     "lib": ["es2017", "dom"]
   },
   "include": [
