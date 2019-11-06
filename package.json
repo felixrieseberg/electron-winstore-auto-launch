@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "optionalDependencies": {
-    "@nodert-win10-au/windows.applicationmodel": "^0.4.1"
+    "@nodert-win10-au/windows.applicationmodel": "^0.4.3"
   },
   "scripts": {
     "build": "tsc -p .",
