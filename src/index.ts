@@ -76,8 +76,7 @@ export class WindowsStoreAutoLaunch {
     const startupTasks = await WindowsStoreAutoLaunch.getStartupTasks();
 
     if (startupTasks && startupTasks.length > 0) {
-      const [ startupTask ] = startupTasks;
-      return startupTask;
+      return startupTasks[0];
     } else {
       return null;
     }
